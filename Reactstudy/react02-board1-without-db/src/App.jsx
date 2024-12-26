@@ -78,7 +78,7 @@ function App() {
 
     console.log("현재no:",no,typeof(no));
 
-
+    writeAction
     selectRow = boardData.reduce(function(pre,cur){
       if(no===cur.no){
         pre = cur;
