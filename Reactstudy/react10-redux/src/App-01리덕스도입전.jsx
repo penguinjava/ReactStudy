@@ -63,7 +63,7 @@ const Left2 = (props) => {
     </div>
   );
 };
-
+// Left의 최하위 컴포넌트에서는 Props로 전달받은 값을 출력한다.
 const Left3 = (props) => {
   return (
     <div>

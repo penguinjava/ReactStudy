@@ -11,6 +11,16 @@ Redux(리덕스)란..??
 : React로 제작한 애플리케이션의 상태관리를 위한 라이브러리로 React와 함께
 사용되지만 써드파티로 제공되므로 별도로 설치해야한다.
  */
+
+
+/**
+store 생성시 주입할 Reducer(리듀서) 함수를 먼저 생성한다.
+리듀서는 Store에 있는 State를 변경하기 위한 코드를 실행부로 정의한다.
+파라미터는 2개가 필요하다.
+  currentState : 현재 State 값
+  action : State 변경에 필요한 요청 파라미터. 2개 이상의 값을 전달할 수
+    있어야 하므로 JSON 객체를 주로 사용한다.
+ */
 function reducer(currentState, action){
     if(currentState === undefined){
         return {
