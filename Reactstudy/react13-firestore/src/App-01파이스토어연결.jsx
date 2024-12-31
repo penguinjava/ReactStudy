@@ -8,7 +8,7 @@ function App() {
   console.log("firestore",firestore);
 
   //도큐먼트 추가
-  const addMessage =async()=>{
+  const addMessage = async()=>{
     /**
     컬렉션 : 테이블과 비슷. Korea로 작성
     도큐먼트 : 레코드와 비슷. Seoul로 작성
